@@ -1,0 +1,238 @@
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #0c0c1d;
+  color: #d3d3d3;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  width: 0px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #d3d3d3;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  height: 100vh;
+}
+
+#shadow-host-companion {
+  height: 0;
+}
+
+.hero {
+  height: calc(100vh - 100px);
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  overflow: hidden;
+  position: relative;
+}
+.hero .wrapper {
+  max-width: 1366px;
+  height: 100%;
+  margin: auto;
+  z-index: 2;
+}
+.hero .wrapper .textContainer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  position: relative; /* Add relative positioning */
+  z-index: 3;
+}
+@media (max-width: 1466px) {
+  .hero .wrapper .textContainer {
+    padding: 50px;
+  }
+}
+@media (max-width: 900px) {
+  .hero .wrapper .textContainer {
+    height: 50%;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 425px) {
+  .hero .wrapper .textContainer {
+    height: 50%;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+}
+.hero .wrapper .textContainer h2 {
+  font-size: 38px;
+  color: #663399;
+  letter-spacing: 10px;
+}
+@media (max-width: 900px) {
+  .hero .wrapper .textContainer h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 425px) {
+  .hero .wrapper .textContainer h2 {
+    font-size: 25px;
+  }
+}
+.hero .wrapper .textContainer .buttons button {
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #fff;
+  margin-right: 20px;
+  cursor: pointer;
+}
+@media (max-width: 900px) {
+  .hero .wrapper .textContainer .buttons button {
+    padding: 10px;
+  }
+}
+@media (max-width: 425px) {
+  .hero .wrapper .textContainer .buttons button {
+    padding: 8px;
+  }
+}
+.hero .wrapper .textContainer .buttons a {
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #fff;
+  margin-right: 20px;
+  cursor: pointer;
+}
+@media (max-width: 900px) {
+  .hero .wrapper .textContainer .buttons a {
+    padding: 10px;
+  }
+}
+@media (max-width: 425px) {
+  .hero .wrapper .textContainer .buttons a {
+    padding: 8px;
+  }
+}
+.hero .wrapper .textContainer h1 {
+  font-size: 88px;
+}
+@media (max-width: 1024px) {
+  .hero .wrapper .textContainer h1 {
+    font-size: 68px;
+  }
+}
+@media (max-width: 900px) {
+  .hero .wrapper .textContainer h1 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 425px) {
+  .hero .wrapper .textContainer h1 {
+    font-size: 36px;
+  }
+}
+.hero .wrapper .textContainer img {
+  width: 50px;
+}
+.hero .imageContainer {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 120px;
+  padding-right: 130px;
+  z-index: 3;
+}
+@media (max-width: 1024px) {
+  .hero .imageContainer {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    top: unset;
+    bottom: 20px;
+    margin: auto;
+  }
+}
+@media (max-width: 900px) {
+  .hero .imageContainer {
+    height: 50%;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: unset;
+    bottom: 20px;
+    margin: auto;
+  }
+}
+@media (max-width: 425px) {
+  .hero .imageContainer {
+    height: 50%;
+    width: 100%;
+    top: unset;
+    bottom: 10px;
+  }
+}
+.hero .imageContainer img {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 900px) {
+  .hero .imageContainer img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 425px) {
+  .hero .imageContainer img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+.hero .slidingTextContainer {
+  position: absolute;
+  font-size: 50vh;
+  bottom: -100px;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.0549019608);
+  width: 50%;
+  font-weight: bold;
+  z-index: 1;
+}/*# sourceMappingURL=hero.css.map */

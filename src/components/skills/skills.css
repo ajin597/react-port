@@ -1,0 +1,83 @@
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #0c0c1d;
+  color: #d3d3d3;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  width: 0px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #d3d3d3;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  height: 100vh;
+}
+
+#shadow-host-companion {
+  height: 0;
+}
+
+.skill {
+  padding: 0 0 50px 0;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.skill .skill-bx {
+  background: #161633;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: 100px;
+}
+@media (max-width: 425px) {
+  .skill .skill-bx {
+    transform: none !important;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+  }
+}
+.skill .skill-bx h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+.skill .skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.skill .skill-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+.skill .background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}/*# sourceMappingURL=skills.css.map */

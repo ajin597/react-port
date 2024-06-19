@@ -1,0 +1,207 @@
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #0c0c1d;
+  color: #d3d3d3;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  width: 0px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #d3d3d3;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  height: 100vh;
+}
+
+#shadow-host-companion {
+  height: 0;
+}
+
+.portfolio {
+  position: relative;
+}
+.portfolio .progress {
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding-top: 50px;
+  text-align: center;
+  color: #FFA500;
+  font-size: 40px;
+  z-index: 999;
+}
+@media (max-width: 900px) {
+  .portfolio .progress {
+    font-size: 25px;
+  }
+}
+@media (max-width: 425px) {
+  .portfolio .progress {
+    font-size: 20px;
+  }
+}
+.portfolio .progress .progressBar {
+  height: 10px;
+  background-color: #fff;
+}
+.portfolio .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: 990;
+}
+.portfolio .container .wrapper {
+  max-width: 1366px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+@media (max-width: 900px) {
+  .portfolio .container .wrapper {
+    flex-direction: column;
+  }
+}
+.portfolio .container .wrapper .imageContainer {
+  flex: 1;
+  height: 50%;
+}
+@media (max-width: 1024px) {
+  .portfolio .container .wrapper .imageContainer {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 900px) {
+  .portfolio .container .wrapper .imageContainer {
+    margin-top: 220px;
+  }
+}
+@media (max-width: 425px) {
+  .portfolio .container .wrapper .imageContainer {
+    width: 100%;
+    max-height: 300px;
+  }
+}
+.portfolio .container .wrapper .imageContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 900px) {
+  .portfolio .container .wrapper .imageContainer img {
+    width: 60%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    position: relative;
+    top: 110px;
+  }
+}
+@media (max-width: 425px) {
+  .portfolio .container .wrapper .imageContainer img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+.portfolio .container .wrapper .textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media (max-width: 1024px) {
+  .portfolio .container .wrapper .textContainer {
+    height: 50%;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 900px) {
+  .portfolio .container .wrapper .textContainer {
+    margin-top: 340px;
+  }
+}
+@media (max-width: 425px) {
+  .portfolio .container .wrapper .textContainer {
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+  }
+}
+.portfolio .container .wrapper .textContainer h2 {
+  font-size: 50px;
+  margin-bottom: 9px;
+}
+@media (max-width: 1024px) {
+  .portfolio .container .wrapper .textContainer h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 900px) {
+  .portfolio .container .wrapper .textContainer h2 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 425px) {
+  .portfolio .container .wrapper .textContainer h2 {
+    font-size: 30px;
+  }
+}
+.portfolio .container .wrapper .textContainer p {
+  color: #808080;
+  font-size: 20px;
+}
+@media (max-width: 900px) {
+  .portfolio .container .wrapper .textContainer p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 425px) {
+  .portfolio .container .wrapper .textContainer p {
+    font-size: 16px;
+  }
+}
+.portfolio .container .wrapper .textContainer a {
+  background-color: #FFA500;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  font-weight: bolder;
+  color: #000;
+  cursor: pointer;
+}/*# sourceMappingURL=portfolio.css.map */
