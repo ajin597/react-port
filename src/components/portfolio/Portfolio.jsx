@@ -21,7 +21,7 @@ const items = [
     id: 3,
     title: "Design Journey: Crafting My Portfolio with HTML, CSS, Bootstrap & JS",
     img: "/port.png",
-    link: "https://port-jm4j.onrender.com",
+    link: "https://port-alpha-livid.vercel.app/",
     desc: `Explore my journey through the realms of web design and development. Witness the seamless fusion of HTML, CSS, Bootstrap, and JavaScript as they converge to create a digital canvas that showcases my passion and skills. From concept to creation, each project tells a story of innovation and craftsmanship. Join me on this creative journey and discover the artistry behind every line of code. Let's connect and explore possibilities together.`
   },
   {
