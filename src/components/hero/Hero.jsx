@@ -64,7 +64,7 @@ const Hero = () => {
             <motion.div variants={textVariants} className="buttons">
                 <motion.a variants={textVariants} href="/jebin.pdf" download={"jebin.pdf"}>Download CV</motion.a>
                 <motion.a href="#Contact" variants={textVariants}>Contact Me</motion.a>
-                <motion.a variants={textVariants} href="https://buymeacoffee.com/ajincosta">Buy Me a Coffee</motion.a>
+                <motion.a variants={textVariants} href="https://buymeacoffee.com/ajincosta">Shop Notes</motion.a>
             </motion.div>
             <motion.img src="/scroll.png" alt="" variants={textVariants} animate="scrollButton"/>
         </motion.div>
