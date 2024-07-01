@@ -87,6 +87,21 @@ export const skills = [
           image:
             "https://res.cloudinary.com/dajlabmrb/image/upload/v1713019872/png-transparent-vercel-hd-logo_s4ea3b.png",
         },
+        {
+          name: "Python",
+          image:
+            "https://banner2.cleanpng.com/20180412/kye/kisspng-python-programming-language-computer-programming-language-5acfdc3636bac7.8891188615235717662242.jpg",
+        },
+        {
+          name: "Django",
+          image:
+            "https://seeklogo.com/images/D/django-logo-4C5ECF7036-seeklogo.com.png",
+        },
+        {
+          name: "PHPMyAdminL",
+          image:
+            "https://pbs.twimg.com/profile_images/468342194894409728/3pl3dljQ_400x400.png",
+        },
       
        
       ],
