@@ -36,7 +36,7 @@ const items = [
     id: 5,
     title: "Medical Store Inventory Management - React.js",
     img: "/medical.jpg",
-    link: "https://github.com/ajin597/medicine",
+    link: "https://ajof-b37ff.firebaseapp.com/",
     desc: `Medical store management website  React!  This website includes user authentication and features such as add, update, delete, and search for medical store inventory. 
 
         Using React, I was able to design a user-friendly interface that allows store owners to easily manage their inventory. The user authentication feature ensures that only authorized personnel have access to sensitive information, providing an extra layer of security. 
