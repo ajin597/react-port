@@ -59,10 +59,10 @@ const Hero = () => {
     <div className="hero">
         <div className="wrapper">
         <motion.div className="textContainer" variants={textVariants} initial="initial" animate="animate">
-            <motion.h2 variants={textVariants}>jebin c</motion.h2>
+            <motion.h2 variants={textVariants}>Ajin c</motion.h2>
             <motion.h1 variants={textVariants}>Full Stack Developer</motion.h1>
             <motion.div variants={textVariants} className="buttons">
-                <motion.a variants={textVariants} href="/jebin.pdf" download={"jebin.pdf"}>Download CV</motion.a>
+                <motion.a variants={textVariants} href="/ajin.pdf" download={"ajin.pdf"}>Download CV</motion.a>
                 <motion.a href="#Contact" variants={textVariants}>Contact Me</motion.a>
                 <motion.a variants={textVariants} href="https://buymeacoffee.com/ajincosta">Shop Notes</motion.a>
             </motion.div>
