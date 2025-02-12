@@ -62,7 +62,7 @@ const Hero = () => {
             <motion.h2 variants={textVariants}>Ajin c</motion.h2>
             <motion.h1 variants={textVariants}>Full Stack Developer</motion.h1>
             <motion.div variants={textVariants} className="buttons">
-                <motion.a variants={textVariants} href="/ajin.pdf" download={"ajin.pdf"}>Download CV</motion.a>
+                <motion.a variants={textVariants} href="/hi.pdf" download={"hi.pdf"}>Download CV</motion.a>
                 <motion.a href="#Contact" variants={textVariants}>Contact Me</motion.a>
                 <motion.a variants={textVariants} href="https://buymeacoffee.com/ajincosta">Shop Notes</motion.a>
             </motion.div>
@@ -75,7 +75,7 @@ const Hero = () => {
         
               <motion.div className="imageContainer">
                 <Tilt>
-                  <Img src="/hero.jpg" alt="Akhil Babu S" />
+                  <Img src="/hero.jpg" alt="ajin" />
                 </Tilt>
               </motion.div>
         
