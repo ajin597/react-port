@@ -27,12 +27,17 @@ export const skills = [
         {
           name: "MySQL",
           image:
-            "https://banner2.cleanpng.com/20180821/lyg/kisspng-mysql-workbench-database-mysql-cluster-5b7cdc87c3dd20.3638601015349095758023.jpg",
+            "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000",
         },
         {
           name: "Tailwind CSS",
           image:
             "https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo.png",
+        },
+         {
+          name: "Wordpress",
+          image:
+            "https://img.icons8.com/?size=160&id=aMLZmDlq6SvC&format=png",
         },
         {
           name: "JavaScript",
@@ -90,7 +95,7 @@ export const skills = [
         {
           name: "Python",
           image:
-            "https://banner2.cleanpng.com/20180412/kye/kisspng-python-programming-language-computer-programming-language-5acfdc3636bac7.8891188615235717662242.jpg",
+            "https://cdn-icons-png.flaticon.com/128/3098/3098090.png",
         },
         {
           name: "Django",

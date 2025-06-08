@@ -262,21 +262,26 @@ const Contact = () => {
  
 
   const sendEmail = (e) => {
-           e.preventDefault();
-           emailjs
-                 .sendForm('service_n7xaxm8', 'template_2852vgj', form.current, {
-                   publicKey: '2MJQnK_p34lmFEb2C',
-                 })
-             .then(
-               (result) => {
-                 alert("Message Sent");
-                 form.current.reset();
-               },
-               (error) => {
-                 alert(error);
-               }
-             );
-         }
+  e.preventDefault();
+
+  emailjs
+    .sendForm(
+      'service_n7xaxm8',
+      'template_2852vgj',
+      e.target,
+      '4J0_xKqSyc2onOSzN'
+    )
+    .then(
+      (result) => {
+        console.log('Success:', result.text); // ✅ This is correct
+        alert('Message sent successfully!');
+      },
+      (error) => {
+        console.error('Failed to send:', error); // ✅ This shows the actual error object
+        alert('Error: ' + JSON.stringify(error)); // ✅ Convert to string
+      }
+    );
+};
 
   return (
     <Container>
