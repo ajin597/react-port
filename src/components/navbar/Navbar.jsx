@@ -11,7 +11,7 @@ const Navbar = () => {
              initial={{opacity: 0, scale: 0.5}}
              animate={{opacity: 1, scale: 1}}
              transition={{duration: 0.5}}
-            >Ajin c</motion.span>
+            >Jebin c</motion.span>
             <div className="social">
                 <a href="https://www.linkedin.com/in/ajincr7/"><img src="/linkedin.png" alt="" /></a>
                 <a href="https://github.com/ajin597"><img src="https://res.cloudinary.com/dajlabmrb/image/upload/v1713021018/github-mark-white_wbb8t5.svg" alt="" /></a>

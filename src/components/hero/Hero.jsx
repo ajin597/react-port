@@ -75,7 +75,7 @@ const Hero = () => {
         
               <motion.div className="imageContainer">
                 <Tilt>
-                  <Img src="/hero.jpg" alt="ajin" />
+                  <Img src="/hero.png" alt="jebin" />
                 </Tilt>
               </motion.div>
         
