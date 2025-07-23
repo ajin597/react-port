@@ -61,6 +61,22 @@ const items = [
     CRUD APPLICATION MADE FOR MY DENTAL CLINIC. ENABLES DIGITIZED PATIENT DATA STORAGE AND MANAGEMENT. 
         `,
   },
+    {
+    id: 7,
+    title: "Business Website Prototype - Wordpress",
+    img: "/word1.png",
+    link: "https://github.com/ajin597/wordpress/tree/master",
+    desc: `This is a responsive sample company website I developed using WordPress to demonstrate my front-end web development and design skills. I used the Astra theme for its lightweight performance and clean design, along with Elementor for easy drag-and-drop page building.. 
+        `,
+  },
+    {
+    id: 7,
+    title: "sample website - Wordpress",
+    img: "/word2.png",
+    link: "https://github.com/ajin597/wordpress2.git",
+    desc: `this is a sample business website built using WordPress, designed to showcase modern UI/UX design using popular tools like the Astra theme and Elementor page builder. It includes sections like home, about, services, testimonials, and contact — all fully responsive and customizable.
+        `,
+  },
   
 ];
 
